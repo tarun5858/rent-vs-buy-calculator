@@ -1,0 +1,160 @@
+#root {
+  /* max-width: 1280px;
+  padding: 2rem; */
+  margin: 0 auto;
+  /* text-align: center; */
+  background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  #root {
+    padding: 0rem;
+  }
+  .calculator-container {
+    margin-top: 25% !important;
+}
+.css-rn0nqi-MuiTypography-root{
+  font-size: 12px!important;
+}
+
+}
+
+
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+} */
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.css-1blp12k-MuiInputBase-root-MuiOutlinedInput-root{
+  border-radius: 15px;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.calculator-container {
+  margin-top: 6%;
+}
+.css-gmuwbf{
+  display: flex;
+  flex-direction: column;
+}
+.sub-headings{
+  color: #4B494E;
+  font-size: 24px;
+  font-weight: bold!important;
+}
+.css-1cb6djm-MuiSlider-root .MuiSlider-valueLabel {
+  
+  top: -2px!important;
+
+}
+.css-1cb6djm-MuiSlider-root{
+  margin-top: 40px;
+}
+.css-j32gss-MuiSlider-root,.css-f1mvhr-MuiSlider-root{
+  margin-top: 35px;
+}
+
+
+
+*{
+  font-family: 'poppins' !important;
+}
+
+@media (min-width: 900px) {
+  .css-lxog49-MuiGrid-root {
+      border: 1px solid black;
+      border-radius: 25px;
+      padding-right:40px!important;
+      margin-top: 0px!important;
+      height: calc(100vh - 64px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .css-1s168b5-MuiContainer-root {
+      max-width: 1335px!important;
+      margin-top: 5%!important;
+  }
+}
+.css-lxog49-MuiGrid-root {
+  border: 1px solid black!important;
+  border-radius: 25px;
+  padding: 3%;
+  margin-top: 24px;
+  height: calc(100vh - 64px);
+}
+
+.calculator-container {
+  transition: all 0.3s ease;
+  overflow: hidden;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+.assumed-values {
+  margin-top: 15px;
+  background: #f1f5f9;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.calculator-container.expanded {
+  /* You can control this height dynamically or let it grow naturally */
+  max-height: 1000px;
+}
+.css-1blp12k-MuiInputBase-root-MuiOutlinedInput-root{
+  border-radius: 15px!important;
+}
+@media (min-width: 900px) {
+  .css-14ds54-MuiGrid-root {
+    padding: 30px;
+      border: 2px solid black;
+      border-radius: 25px;
+      padding-right: 0px;
+      margin-top: 24px;
+      height: calc(100vh - 64px);
+  }
+ .css-159wvmj-MuiGrid-root{
+    padding: 30px;
+  }
+}
+
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

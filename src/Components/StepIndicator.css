@@ -1,0 +1,79 @@
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+.modal-dialog {
+  max-height: 100vh; /* Ensure the modal does not exceed the viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content {
+  flex: 1 1 auto; /* Allow the content to grow and shrink */
+  overflow:inherit; /* Enable scrolling if content exceeds the modal height */
+}
+/* .modal-header {
+  padding: 10px 15px !important; /* Reduce padding */
+.whatsp-btn-style{
+      position: "fixed";
+      padding:"10px 23px";
+      bottom: "30px";
+      right: "40px";
+      background-color: "#4dc247";
+      border-radius: "50px";
+      /* // width: "75px";
+      // height: "75px"; */
+      display: "flex";
+      justify-content: "center";
+      align-items: "center";
+      box-shadow: "0 4px 8px rgba(0, 0, 0, 0.2)";
+      z-index: 1000;
+      cursor: "pointer";
+      font-size:"20px";
+      color:"#fff"
+    }
+.whtsp-icon{
+    width: "30px";
+      height: "30px";
+      fill:"#fff";
+      margin-right:"5px"
+    }
+
+  @media (max-width:500px){
+    .desk-text{
+      display: none;
+    }
+    .whatsp-btn-style{
+      position: "fixed";
+      padding:"10px 10px"!important;
+      bottom: "10px"!important;
+      right: "10px"!important;
+      background-color: "#4dc247";
+      border-radius: "50px";
+      /* // width: "75px";
+      // height: "75px"; */
+      display: "flex";
+      justify-content: "center";
+      align-items: "center";
+      box-shadow: "0 4px 8px rgba(0, 0, 0, 0.2)";
+      z-index: 1000;
+      cursor: "pointer";
+      font-size:"20px";
+      color:"#fff"
+    }
+    .whtsp-icon{
+   width: 40px;
+          height: 40px;
+          margin: 05px;
+    }
+  }

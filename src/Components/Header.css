@@ -1,0 +1,57 @@
+details[open] .arrow-icon {
+  transform: rotate(180deg); /* Rotate arrow downwards when open */
+}
+
+.arrow-icon {
+  transform: rotate(0deg); /* Default arrow direction (upwards) */
+  transition: transform 0.3s ease; /* Smooth rotation animation */
+}
+.mobile-waitlist-btn{
+      padding: 10px 20px;
+    background: #fff;
+    color: rgb(0, 127, 173);
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.modal-content {
+    position: absolute;
+    display: flex
+;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+    /* padding: 25px 45px; */
+    border-radius: 26px!important;
+}
+header.header-1 .main-menu ul>li>a{
+text-decoration: none!important;
+}
+.theme-btn-navbar.btn-radius,footer .single-footer-wid ul li a{
+  text-decoration: none!important;
+
+}
+
+@media screen and (max-width: 768px) {
+.modal-content {
+    position: absolute;
+    display: flex
+;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+    padding: 5px 10px!important;
+    border-radius: 26px!important;
+}
+
+}
