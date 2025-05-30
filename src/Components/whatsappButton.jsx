@@ -21,7 +21,7 @@ const WhatsAppButton = () => {
   const styles = {
     floatingButton: {
       position: "fixed",
-      bottom: isMobile ? "35px" : "30px",
+      bottom: isMobile ? "15px" : "30px",
       right: isMobile ? "10px" : "40px",
       padding: isMobile ? "10px 10px" : "10px 23px",
       backgroundColor: "#4dc247",
